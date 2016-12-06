@@ -27,7 +27,8 @@ javascript files are served from the 'content' directory on port 8282. Connect
 to the web server at http://localhost:8282.
 
 This application makes use of the javascript implementation of DIS, available at
-http://github.com/open-dis/open-dis/javascript . The files are a
+http://github.com/open-dis/open-dis/javascript . The files are already present
+in the content directory.
 
 The W3C specification for media capture is here:
 

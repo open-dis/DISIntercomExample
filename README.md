@@ -8,7 +8,7 @@ a nodejs http server in the root directory. To start it you should install
 nodejs, then type
 
 ~~~~
-np install connect serve-static
+npm install connect serve-static
 node server.js
 ~~~~
 

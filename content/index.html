@@ -1,0 +1,29 @@
+<html>
+<head>
+ <script type="text/javascript" src="javascript/dis.js"></script>
+</head>
+
+<body>
+DIS Intercom example. If running on a desktop with a mic, this can access the mic
+and retrieve mu-law audio, then stuff that into a DIS intercom PDU.
+
+Typically this needs to be served from an http server, not directly from disk.
+
+<script>
+function hasGetUserMedia() 
+{
+  return !!(navigator.getUserMedia || navigator.webkitGetUserMedia ||
+            navigator.mozGetUserMedia || navigator.msGetUserMedia);
+}
+
+if (hasGetUserMedia()) 
+{
+  // Good to go!
+} else 
+{
+  alert('getUserMedia() is not supported in your browser');
+}
+</script>
+
+</body>
+</html>

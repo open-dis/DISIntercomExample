@@ -8,13 +8,13 @@ a nodejs http server in the root directory. To start it you should install
 nodejs, then type
 
 ~~~~
-np install connect serve-static
+npm install connect serve-static
 node server.js
 ~~~~
 
 This downloads the files necessary for nodejs to run the web server, then starts
 it, using the server.js file. The server.js file in turn specifies that the content
-will be served up from the content directory.
+will be served up on port 8282 from the content directory.
 
 Makes use of the javascript implementation of DIS.
 

@@ -23,7 +23,8 @@ node server.js
 
 This downloads the files necessary for nodejs to run a web server, then starts
 it. The server.js file is the implementation of the web server. The html and
-javascript files are served from the 'content' directory on port 8282. Connect
+javascript files are served from the 'content' directory on port 8282. You can
+change this by editing the server.js file. Connect
 to the web server at http://localhost:8282.
 
 This application makes use of the javascript implementation of DIS, available at
